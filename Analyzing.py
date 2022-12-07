@@ -32,11 +32,6 @@ tmp = data.head(500)
 Airport = data['Origin'].value_counts()
 
 
-
-
-
-
-
 # 1. 航班出發和抵達的延遲，是否集中在某一時段或某些特定機場?
 ## 1.1 取前10名最會delay出發機場
 Dep_Airport = data[data['DepartureDelayGroups'] > 0].value_counts('Origin')/data['Origin'].value_counts()            *100
@@ -50,9 +45,6 @@ Dep_Airport.nlargest(20).plot(kind='bar', color = sns.color_palette('OrRd_r',20)
 plt.title('20th The Most Delay\'s Airport(Origin)')
 plt.xlabel('Origin Airport') # 增加x軸標籤
 plt.ylabel('Delay Probability(%)') # 增加y軸標籤
-
-
-
 
 
 
