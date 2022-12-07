@@ -1,1 +1,19 @@
 # Airline_Weather
+
+## 1. 爬蟲 
+Web Scraping(file)
+	
+## 2. 資料清洗 
+data cleaning(file)
+
+## 3. 合併/探索資料 
+concat_table.py & eda_weatherwithdelay.py
+
+## 4. 分析資料/視覺化 
+Analyzing.py & Feature_Select.ipynb
+
+## 5. 機器學習 
+Machine Learning(file)
+
+## 6. 網頁 
+Web_on_GCP https://github.com/SiaotingWu/Web_on_GCP
